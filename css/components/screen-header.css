@@ -5,6 +5,7 @@
     padding: 35px;
     /* or padding: var(--horizontal--space) */
     padding-top: 55px;
+    margin-bottom: 10px;
     
     /* status-bar의 position: fixed로 인해 screen-header가 위로 올라가는 경우
     위에 패딩을 늘리는 방법 */

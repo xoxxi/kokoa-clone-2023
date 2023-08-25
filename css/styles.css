@@ -16,3 +16,7 @@ body {
     color: #2e363e;
     height: 500vh;
 }
+
+.main-screen {
+    padding-left: var(--horizontal--space);
+}
