@@ -1,11 +1,13 @@
+
+
 .user-component {
     display: flex;
     align-items: center;
-    padding: 35px;
+    /* 좌우 패딩 값은 friends.css에 있음 */
     padding-top: 120px;
     /* column 두 개가 옆으로 정렬된 것 */
 }
-
+.user-component__column,
 .user-component__column:first-child {
     /* h4랑 img 둘 다 해당되는 것임 */
     display: flex;
@@ -13,8 +15,8 @@
 }
 
 .user-component__avatar {
-    width: 90px;
-    height: 90px;
+    width: 80px;
+    height: 80px;
     border-radius: 25px;
     margin-right: 20px;
 
@@ -28,4 +30,9 @@
     margin-top: 5px;
     font-size: 17px;
     color: rgba(0, 0, 0, 0.3);
+}
+
+.user-component__avatar--xl {
+    width: 90px;
+    height: 90px;
 }
