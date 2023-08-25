@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 35px;
-    padding-top: 60px;
+    padding-top: 55px;
     
     /* status-bar의 position: fixed로 인해 screen-header가 위로 올라가는 경우
     위에 패딩을 늘리는 방법 */

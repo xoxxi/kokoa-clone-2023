@@ -1,0 +1,31 @@
+.user-component {
+    display: flex;
+    align-items: center;
+    padding: 35px;
+    padding-top: 120px;
+    /* column 두 개가 옆으로 정렬된 것 */
+}
+
+.user-component__column:first-child {
+    /* h4랑 img 둘 다 해당되는 것임 */
+    display: flex;
+    align-items: center;
+}
+
+.user-component__avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 25px;
+    margin-right: 20px;
+
+}
+.user-component__title {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.user-component__subtitle {
+    margin-top: 5px;
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.3);
+}
