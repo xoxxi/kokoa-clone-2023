@@ -8,7 +8,6 @@
     box-sizing: border-box;
 }
 .nav__link {
-    color: #2e363e;
     position: relative;
 }
 .nav__list {

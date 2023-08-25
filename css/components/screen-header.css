@@ -3,6 +3,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 35px;
+    padding-top: 60px;
+    
     /* status-bar의 position: fixed로 인해 screen-header가 위로 올라가는 경우
     위에 패딩을 늘리는 방법 */
     /* 아니면 screen-header도 고정시키는 방법도 있다.
@@ -12,7 +14,7 @@
     position: fixed;
     width: 100%;
     box-sizing: border-box;
-    top: 30px;
+    z-index: 2;
     
 }
 
