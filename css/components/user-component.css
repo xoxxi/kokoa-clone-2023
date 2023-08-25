@@ -3,8 +3,8 @@
 .user-component {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     /* 좌우 패딩 값은 friends.css에 있음 */
-    padding-top: 120px;
     /* column 두 개가 옆으로 정렬된 것 */
 }
 .user-component__column,
@@ -35,4 +35,34 @@
 .user-component__avatar--xl {
     width: 90px;
     height: 90px;
+}
+.user-component__avatar--sm {
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+}
+
+.user-component__title--not-bold {
+    font-weight: 400;
+}
+
+.friends-screen__channel {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.friends-screen__channel-header {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.user-component__column:last-child {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.user-component__profile {
+    padding-top: 120px;
 }
